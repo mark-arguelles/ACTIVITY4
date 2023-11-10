@@ -32,3 +32,10 @@ CREATE TABLE doctors (
     email VARCHAR(255),
     PRIMARY KEY (doctorid)
 );
+--feat/create-table-appointments
+CREATE TABLE appointments (
+    appointmentid INT PRIMARY KEY,
+    animalid INT,
+    appointmentdate DATE,
+    reason VARCHAR(255)
+);
